@@ -1,0 +1,98 @@
+table#miyazaki { 
+  margin: 0 auto;
+  /*border-collapse: collapse;*/
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+}
+table#miyazaki caption { 
+  font-size: 2rem; color: #444;
+  margin: 1rem;
+ /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/miyazaki.png), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/miyazaki2.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left, center right; 
+}
+table#miyazaki thead th { font-weight: 600; }
+table#miyazaki thead th, table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table#miyazaki tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee; 
+}
+table#miyazaki tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+header {
+width: 100%;
+background: #f5eab2;
+box-shadow: 3px 3px 1px rgba(0,0,0,.05);
+padding: 10px 0;
+margin-bottom: 30px;
+position: relative;
+font-family: Agenda-Light, sans-serif;
+}
+
+/* меню */
+#menu {
+float: center;
+text-align:center;
+}
+#menu li {
+display: inline-block;
+margin-right: 100px;
+}
+
+#menu a {
+     color: #111;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 600;
+     display: block;
+     line-height: 40px;
+}
+#menu a:hover {
+color: #EF5A42;
+}
+#menu li:last-child  {
+margin-right: 0;
+}
+
+body{
+background-color:#eddc87;
+}
+
+button{
+  margin:auto;
+  display:block;
+}
+
+/* BUTTON STYLES */
+button{
+  padding:16px 32px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:100;
+  color:#fff;
+  background: #587286;
+  border:0;
+  font-weight:100;
+}
+button:hover{
+  background: #3B5C76;
+}
+
+aut_form{
+/*float:center;
+top: calc(50% - 102/2);
+left: calc(50% - 1332/2);*/
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+
+}
+/* END OF BUTTON STYLES */
